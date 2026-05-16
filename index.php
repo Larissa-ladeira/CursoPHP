@@ -24,7 +24,7 @@
             <p>Explorando os fundamentos do PHP com exercícios práticos</p>
             <div class="stats">
                 <div>📁 <strong>4</strong> módulos</div>
-                <div>📄 <strong>6</strong> exercícios</div>
+                <div>📄 <strong>8</strong> exercícios</div>
                 <div>⚡ PHP 8+</div>
             </div>
         </header>
@@ -73,7 +73,23 @@
                 <div class="arrow">→</div>
             </a>
 
-            <a href="exercicios/index.php" class="card c0">
+            <a href="ex005/index.php" class="card c0">
+                <div class="icon">📄</div>
+                <h3>Relatório CSV</h3>
+                <p class="desc">Cadastre contatos (nome, e-mail, telefone) e visualize em uma tabela HTML lendo de um arquivo CSV.</p>
+                <div class="tags"><span>CSV</span><span>fputcsv</span><span>fgetcsv</span><span>tabela</span></div>
+                <div class="arrow">→</div>
+            </a>
+
+            <a href="ex006/index.php" class="card c0">
+                <div class="icon">🔄</div>
+                <h3>Conversor de Unidades</h3>
+                <p class="desc">Converta entre distância, massa, temperatura e volume. Escolha a unidade de entrada e saída.</p>
+                <div class="tags"><span>conversão</span><span>form</span><span>select</span><span>match</span></div>
+                <div class="arrow">→</div>
+            </a>
+
+            <a href="ex004/index.php" class="card c0">
                 <div class="icon">🔐</div>
                 <h3>Testador de Login</h3>
                 <p class="desc">Validação de credenciais com condicionais. Simula um sistema de login.</p>
