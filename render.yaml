@@ -1,6 +1,5 @@
 services:
-  - type: web
+  - type: static
     name: curso-php-larissa
-    runtime: native
     buildCommand: ""
-    startCommand: php -S 0.0.0.0:$PORT
+    publishPath: "."
