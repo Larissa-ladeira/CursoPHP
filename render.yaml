@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: curso-php
+    name: curso-php-larissa
     env: php
-    buildCommand: ''
-    startCommand: ''
+    buildCommand: ""
+    startCommand: apache2-foreground
