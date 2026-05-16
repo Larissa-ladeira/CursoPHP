@@ -53,16 +53,6 @@
         }
         ?>
 
-        <div class="ddd-list">
-            <div class="ddd-item"><strong>11</strong>São Paulo</div>
-            <div class="ddd-item"><strong>19</strong>Campinas</div>
-            <div class="ddd-item"><strong>21</strong>Rio de Janeiro</div>
-            <div class="ddd-item"><strong>27</strong>Vitória</div>
-            <div class="ddd-item"><strong>31</strong>Belo Horizonte</div>
-            <div class="ddd-item"><strong>41</strong>Curitiba</div>
-            <div class="ddd-item"><strong>51</strong>Porto Alegre</div>
-            <div class="ddd-item"><strong>91</strong>Salvador</div>
-        </div>
     </div>
 </body>
 </html>
