@@ -1,6 +1,6 @@
 services:
   - type: web
     name: curso-php-larissa
-    env: php
+    runtime: native
     buildCommand: ""
-    startCommand: apache2-foreground
+    startCommand: php -S 0.0.0.0:$PORT
