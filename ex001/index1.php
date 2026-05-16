@@ -23,5 +23,6 @@
             <div class="greeting">👋 Olá, <strong><?= $nome ?></strong>!</div>
         <?php endif; ?>
     </div>
+<a href="?codigo=1" class="code-btn">?? C�digo</a>
 </body>
 </html>
