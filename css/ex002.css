@@ -175,15 +175,18 @@ button:hover {
 .code-btn {
     position: fixed; bottom: 24px; right: 24px; z-index: 10;
     display: inline-flex; align-items: center; gap: 6px;
-    padding: 10px 18px; border-radius: 40px;
-    background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08);
-    color: #aaaacc; text-decoration: none; font-size: 0.8rem; font-weight: 500;
+    padding: 10px 20px; border-radius: 40px;
+    background: linear-gradient(135deg, rgba(253,203,110,0.15), rgba(253,121,168,0.15));
+    border: 1px solid rgba(253,203,110,0.25);
+    color: #fdcb6e; text-decoration: none; font-size: 0.8rem; font-weight: 600;
     font-family: 'Inter', sans-serif; backdrop-filter: blur(12px);
-    transition: all 0.2s;
+    box-shadow: 0 4px 20px rgba(253,203,110,0.1);
+    transition: all 0.25s;
 }
 .code-btn:hover {
-    background: rgba(255,255,255,0.1); color: #fff;
-    border-color: rgba(255,255,255,0.15); transform: translateY(-2px);
+    background: linear-gradient(135deg, rgba(253,203,110,0.25), rgba(253,121,168,0.25));
+    color: #fff; border-color: rgba(253,203,110,0.4);
+    transform: translateY(-3px); box-shadow: 0 6px 30px rgba(253,203,110,0.2);
 }
 @media (max-width: 500px) {
     .card { padding: 28px 20px; }
