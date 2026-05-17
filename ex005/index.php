@@ -151,7 +151,8 @@
                 <a href="?download=1" class="btn-baixar">⬇️ Baixar CSV</a>
             </div>
         <?php endif; ?>
-    </div>
-<a href="?codigo=1" class="code-btn">?? C�digo</a>
+    
+    <a href="?codigo=1" class="code-btn">📄 Código</a>
+</div>
 </body>
 </html>

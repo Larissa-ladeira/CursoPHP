@@ -22,7 +22,8 @@
             <?php $nome = htmlspecialchars($_POST['nome']); ?>
             <div class="greeting">👋 Olá, <strong><?= $nome ?></strong>!</div>
         <?php endif; ?>
-    </div>
-<a href="?codigo=1" class="code-btn">?? C�digo</a>
+    
+    <a href="?codigo=1" class="code-btn">📄 Código</a>
+</div>
 </body>
 </html>

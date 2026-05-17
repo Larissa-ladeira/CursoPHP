@@ -294,7 +294,8 @@
         Feito com 💜 &bull; PHP &mdash; Ex003
     </footer>
 
+
+    <a href="?codigo=1" class="code-btn">📄 Código</a>
 </div>
-<a href="?codigo=1" class="code-btn">?? C�digo</a>
 </body>
 </html>

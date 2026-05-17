@@ -20,7 +20,8 @@
         <p>Vamos tentar nos livrar da maldição!</p>
         <div class="code-hint">&lt;?php echo "Olá, Mundo 🌎!"; ?&gt;</div>
         <div class="tag">Primeiro passo</div>
-    </div>
-<a href="?codigo=1" class="code-btn">?? C�digo</a>
+    
+    <a href="?codigo=1" class="code-btn">📄 Código</a>
+</div>
 </body>
 </html>
