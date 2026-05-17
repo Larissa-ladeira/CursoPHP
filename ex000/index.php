@@ -21,7 +21,8 @@
         <div class="code-hint">&lt;?php echo "Olá, Mundo 🌎!"; ?&gt;</div>
         <div class="tag">Primeiro passo</div>
     
-    <a href="?codigo=1" class="code-btn">📄 Código</a>
 </div>
+
+    <a href="?codigo=1" class="code-btn">📄 Código</a>
 </body>
 </html>
