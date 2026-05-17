@@ -44,3 +44,4 @@ Para executar os arquivos PHP deste repositório na sua máquina, você precisar
    git clone [https://github.com/Larissa-ladeira/CursoPHP.git](https://github.com/Larissa-ladeira/CursoPHP.git)
 Para visualizar o front no seu computador acesse: 
    http://localhost/CursoPHP/
+Ou acesse ele online pelo link https://cursophplarissa.lovestoblog.com/index.php
