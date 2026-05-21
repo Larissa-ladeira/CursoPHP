@@ -1,0 +1,6 @@
+@import url('exercicios.css');
+.card{max-width:400px}
+.result.success{background:rgba(0,206,201,0.08);border:1px solid rgba(0,206,201,0.2);color:#00cec9;margin-top:20px;padding:16px 20px;border-radius:14px;text-align:center;font-weight:600;font-size:1rem;animation:fadeIn .35s ease}
+.result.error{background:rgba(253,121,168,0.08);border:1px solid rgba(253,121,168,0.2);color:#fd79a8;margin-top:20px;padding:16px 20px;border-radius:14px;text-align:center;font-weight:600;font-size:1rem;animation:fadeIn .35s ease}
+.result.warning{background:rgba(253,203,110,0.08);border:1px solid rgba(253,203,110,0.2);color:#fdcb6e;margin-top:20px;padding:16px 20px;border-radius:14px;text-align:center;font-weight:600;font-size:1rem;animation:fadeIn .35s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}

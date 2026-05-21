@@ -1,13 +1,13 @@
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:#0b0a1a;padding:20px;font-family:'Inter',sans-serif}
+body{background:#0b0a1a;padding:24px;font-family:'Inter',sans-serif;min-height:100vh;display:flex;flex-direction:column}
 .top{display:flex;align-items:center;gap:12px;margin-bottom:20px;flex-wrap:wrap}
 .top a{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border-radius:10px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.06);color:#9999bb;text-decoration:none;font-size:.8rem;transition:all .2s}
 .top a:hover{background:rgba(255,255,255,0.08);color:#fff}
 .top span{color:#555577;font-size:.75rem}
 pre{margin:0}
-.wrap{background:rgba(0,0,0,0.5);border-radius:12px;padding:20px;overflow-x:auto;border:1px solid rgba(255,255,255,0.04)}
-.wrap code{font-family:'JetBrains Mono','Fira Code',monospace;font-size:.82rem;line-height:1.7;color:#e8e8f0}
-.wrap code span{color:#e8e8f0!important}
+.wrap{background:rgba(0,0,0,0.6);border-radius:14px;padding:24px;overflow-x:auto;overflow-y:auto;border:1px solid rgba(255,255,255,0.06);flex:1;max-width:100%;box-shadow:0 8px 40px rgba(0,0,0,0.3)}
+.wrap code{font-family:'JetBrains Mono','Fira Code',Consolas,monospace;font-size:1rem;line-height:1.9;color:#e8e8f0!important;white-space:pre;word-wrap:normal;tab-size:4}
+.wrap code span{color:#e8e8f0!important;background:transparent!important}
 .code-btn{position:fixed;bottom:24px;right:24px;z-index:10;display:inline-flex;align-items:center;gap:6px;padding:10px 20px;border-radius:40px;background:linear-gradient(135deg,rgba(253,203,110,0.15),rgba(253,121,168,0.15));border:1px solid rgba(253,203,110,0.25);color:#fdcb6e;text-decoration:none;font-size:.8rem;font-weight:600;font-family:'Inter',sans-serif;backdrop-filter:blur(12px);box-shadow:0 4px 20px rgba(253,203,110,0.1);transition:all .25s}
 .code-btn:hover{background:linear-gradient(135deg,rgba(253,203,110,0.25),rgba(253,121,168,0.25));color:#fff;border-color:rgba(253,203,110,0.4);transform:translateY(-3px);box-shadow:0 6px 30px rgba(253,203,110,0.2)}
-@media(max-width:600px){body{padding:12px}.wrap{padding:12px}.wrap code{font-size:.72rem}}
+@media(max-width:600px){body{padding:12px}.wrap{padding:16px}.wrap code{font-size:.78rem}}

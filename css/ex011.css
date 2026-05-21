@@ -1,0 +1,19 @@
+*{margin:0;padding:0;box-sizing:border-box}
+.back{position:fixed;top:24px;left:24px;display:inline-flex;align-items:center;gap:8px;padding:10px 20px;border-radius:40px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.06);color:#9999bb;text-decoration:none;font-size:.85rem;font-weight:500;transition:all .2s;backdrop-filter:blur(12px);z-index:10}
+.back:hover{background:rgba(255,255,255,0.08);color:#fff;border-color:rgba(255,255,255,0.12);transform:translateX(-2px)}
+body{font-family:'Inter',sans-serif;background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);min-height:100vh;display:flex;align-items:center;justify-content:center;color:#e0e0f0;padding:40px 20px}
+.card{background:rgba(255,255,255,0.04);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,0.06);border-radius:24px;padding:44px 40px;max-width:420px;width:100%;text-align:center;transition:transform .3s,box-shadow .3s}
+.card:hover{transform:translateY(-4px);box-shadow:0 24px 60px rgba(0,0,0,0.5)}
+.card h1{font-size:1.6rem;font-weight:700;margin-bottom:6px;color:#fff}
+.card h1 span{background:linear-gradient(135deg,#fdcb6e,#fd79a8);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.sub{color:#8888bb;font-size:.88rem;margin-bottom:24px;font-weight:300}
+.number-box{background:rgba(0,0,0,0.3);border:1px solid rgba(255,255,255,0.06);border-radius:16px;padding:28px 20px;margin-bottom:20px}
+.number-display{font-size:4rem;font-weight:800;font-family:'JetBrains Mono','Fira Code',monospace;background:linear-gradient(135deg,#f093fb,#f5576c,#fdcb6e);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:pulse 1.5s ease-in-out infinite}
+.number-label{font-size:.75rem;text-transform:uppercase;letter-spacing:1.5px;color:#666699;font-weight:600;margin-top:8px}
+button{padding:14px 28px;border-radius:12px;border:none;background:linear-gradient(135deg,#fdcb6e,#fd79a8);color:#1a1a2e;font-size:1rem;font-weight:700;font-family:inherit;cursor:pointer;transition:transform .2s,box-shadow .2s}
+button:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(253,203,110,0.25)}
+.code-btn{position:fixed;bottom:24px;right:24px;z-index:10;display:inline-flex;align-items:center;gap:6px;padding:10px 20px;border-radius:40px;background:linear-gradient(135deg,rgba(253,203,110,0.15),rgba(253,121,168,0.15));border:1px solid rgba(253,203,110,0.25);color:#fdcb6e;text-decoration:none;font-size:.8rem;font-weight:600;font-family:'Inter',sans-serif;backdrop-filter:blur(12px);box-shadow:0 4px 20px rgba(253,203,110,0.1);transition:all .25s}
+.code-btn:hover{background:linear-gradient(135deg,rgba(253,203,110,0.25),rgba(253,121,168,0.25));color:#fff;border-color:rgba(253,203,110,0.4);transform:translateY(-3px);box-shadow:0 6px 30px rgba(253,203,110,0.2)}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+footer{text-align:center;padding:24px 0 0;color:#555577;font-size:.82rem;margin-top:8px}
+@media(max-width:500px){.card{padding:28px 20px}.number-display{font-size:3rem}}
